@@ -1,4 +1,5 @@
-console.log(1 +  +"2" + "2");
-console.log(false == '0');
-const appName = getAppName(channel);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const flattenedArray = arr => [].concat(...arr);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const randomString = () => Math.random().toString(36).slice(2);
+var DELIM_SIZE = 4;
+const randomBoolean = () => Math.random() >= 0.5;
