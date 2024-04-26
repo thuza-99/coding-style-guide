@@ -1,4 +1,4 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log(typeof typeof 1);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log("1 && 2 = "+(1 && 2));
+const channelName = getChannelName(channel);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const results = await Promise.all(resultingPromises);
