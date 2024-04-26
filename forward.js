@@ -1,5 +1,6 @@
-const uniqueArray = arr => [...new Set(arr)];
-const randomString = () => Math.random().toString(36).slice(2);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-console.log(1 +  +"2" + "2");
+var arr1 = "john".split('');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const removeDuplicates = (arr) => [...new Set(arr)];
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+var DELIM_SIZE = 4;
