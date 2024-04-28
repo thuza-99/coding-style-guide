@@ -1,2 +1,1 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const uniqueArray = arr => [...new Set(arr)];
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
