@@ -1,1 +1,4 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+var arr1 = "john".split('');
+var DELIM_SIZE = 4;
