@@ -1,3 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const isEven = (num) => num % 2 === 0;
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const currentDate = () => new Date().toLocaleDateString('en-US');
