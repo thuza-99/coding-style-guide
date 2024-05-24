@@ -1,3 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-var DELIM_SIZE = 4;
-const isTabInView = () => !document.hidden;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+console.log(1 +  "2" + "2");
