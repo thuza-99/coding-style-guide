@@ -1,2 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const merge = Object.assign({}, obj1, obj2);
+function myAPITS(someString: string, someNum: number) { ... };
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const merge = (a, b) => a.concat(b);
