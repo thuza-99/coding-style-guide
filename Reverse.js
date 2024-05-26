@@ -1,2 +1,2 @@
-var arr2 = arr1.reverse();
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+console.log(1 +  "2" + "2");
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
