@@ -1,3 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-console.log(1 +  "2" + "2");
+const flattenedArray = arr => [].concat(...arr);
+const maxNumber = arr => Math.max(...arr);
+console.log(typeof typeof 1);
