@@ -1,1 +1,2 @@
-const merge = [...new Set([...a, ...b])];
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const fullName = name || 'buddy';
