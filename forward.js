@@ -1,3 +1,2 @@
-const flattenedArray = arr => [].concat(...arr);
-const maxNumber = arr => Math.max(...arr);
-console.log(typeof typeof 1);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
