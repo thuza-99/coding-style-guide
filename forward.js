@@ -1,2 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log("1 || 2 = "+(1 || 2));
