@@ -1,2 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const fullName = name || 'buddy';
+console.log(false == '0');
+const isEven = (num) => num % 2 === 0;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
