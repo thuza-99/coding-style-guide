@@ -1,1 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
+const flattenedArray = arr => [].concat(...arr);
