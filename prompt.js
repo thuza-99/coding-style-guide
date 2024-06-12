@@ -1,2 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const flattenedArray = arr => [].concat(...arr);
+var c = new Counter(); c.add(); c.add(); c.add();
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
