@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const goToTop = () => window.scrollTo(0, 0);
+var pattern = {};
