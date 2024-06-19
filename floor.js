@@ -1,2 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log(typeof typeof 1);
+const isArray = (arr) => Array.isArray(arr);
