@@ -1,3 +1,2 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const reversedString = str => str.split('').reverse().join('');
-const isTabInView = () => !document.hidden;
+console.log(typeof typeof 1);
+console.log("0 || 1 = "+(0 || 1));
