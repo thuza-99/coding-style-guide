@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isEmptyArray = arr => !arr.length;
+const merge = (a, b) => [...a, ...b];
