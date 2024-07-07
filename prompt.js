@@ -1,3 +1,3 @@
-var arr3 = "jones".split('');
-console.log(false === '0');
 const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log(typeof typeof 1);
+const uniqueArray = arr => [...new Set(arr)];
