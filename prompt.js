@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log(typeof typeof 1);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
 const uniqueArray = arr => [...new Set(arr)];
+const appName = getAppName(channel);
