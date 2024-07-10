@@ -1,3 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const channel = getChannel(computedAppVersion);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(false == '0');
+console.log(1 +  +"2" + "2");
