@@ -1,1 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const results = await Promise.all(resultingPromises);
+const merge = (a, b) => [...a, ...b];
