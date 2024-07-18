@@ -1,3 +1,2 @@
-const appName = getAppName(channel);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-var DELIM_SIZE = 4;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log( "A" - "B" + 2);
