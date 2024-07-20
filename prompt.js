@@ -1,2 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log( "A" - "B" + 2);
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log("0 && 1 = "+(0 && 1));
+const randomBoolean = () => Math.random() >= 0.5;
