@@ -1,2 +1,2 @@
-const results = await Promise.all(resultingPromises);
-const merge = (a, b) => [...a, ...b];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+var arr3 = "jones".split('');
