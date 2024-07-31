@@ -1,3 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
-const isTabInView = () => !document.hidden;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
