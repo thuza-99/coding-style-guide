@@ -1,2 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-var arr3 = "jones".split('');
+const toggleBool = () => (bool = !bool);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
