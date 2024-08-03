@@ -1,2 +1,2 @@
-const toggleBool = () => (bool = !bool);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const removeDuplicates = (arr) => [...new Set(arr)];
