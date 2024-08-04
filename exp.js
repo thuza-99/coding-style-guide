@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const updated = numbers.filter(element => element > 6);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+console.log("1 || 2 = "+(1 || 2));
