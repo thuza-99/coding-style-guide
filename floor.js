@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-console.log(typeof typeof 1);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
